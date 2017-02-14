@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		846062CB1E4DEB3A0023A091 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 846062CA1E4DEB3A0023A091 /* libz.tbd */; };
+		848363861E4B41950055D636 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848363851E4B41950055D636 /* SettingsViewController.swift */; };
+		848363891E4B46E20055D636 /* r_unsel.png in Resources */ = {isa = PBXBuildFile; fileRef = 848363871E4B46E20055D636 /* r_unsel.png */; };
+		8483638A1E4B46E20055D636 /* r_sel.png in Resources */ = {isa = PBXBuildFile; fileRef = 848363881E4B46E20055D636 /* r_sel.png */; };
+		848A01BC1E49D67A001B3C3C /* notif_wave.png in Resources */ = {isa = PBXBuildFile; fileRef = 848A01B61E49D67A001B3C3C /* notif_wave.png */; };
+		848A01BD1E49D67A001B3C3C /* notif_radar.png in Resources */ = {isa = PBXBuildFile; fileRef = 848A01B71E49D67A001B3C3C /* notif_radar.png */; };
+		848A01BE1E49D67A001B3C3C /* notif_device.png in Resources */ = {isa = PBXBuildFile; fileRef = 848A01B81E49D67A001B3C3C /* notif_device.png */; };
+		848A01BF1E49D67A001B3C3C /* notification_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 848A01B91E49D67A001B3C3C /* notification_icon.png */; };
+		848A01C01E49D67A001B3C3C /* proximity_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 848A01BA1E49D67A001B3C3C /* proximity_icon.png */; };
+		848A01C11E49D67A001B3C3C /* ibks.png in Resources */ = {isa = PBXBuildFile; fileRef = 848A01BB1E49D67A001B3C3C /* ibks.png */; };
+		848A01C51E49DB3C001B3C3C /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 848A01C31E49DB3C001B3C3C /* OpenSans-Light.ttf */; };
+		848A01C61E49DB3C001B3C3C /* Khand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 848A01C41E49DB3C001B3C3C /* Khand-Bold.ttf */; };
+		848A01C81E49E45C001B3C3C /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848A01C71E49E45C001B3C3C /* ScanViewController.swift */; };
+		848A01CB1E49EA44001B3C3C /* MyCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848A01CA1E49EA44001B3C3C /* MyCustomTableViewCell.swift */; };
+		848A01CE1E49F450001B3C3C /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848A01CD1E49F450001B3C3C /* CoreBluetooth.framework */; };
+		848A01D01E4A1A21001B3C3C /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848A01CF1E4A1A21001B3C3C /* NotificationsViewController.swift */; };
+		848A01D21E4A1C3B001B3C3C /* back_icn.png in Resources */ = {isa = PBXBuildFile; fileRef = 848A01D11E4A1C3B001B3C3C /* back_icn.png */; };
+		84932D301D3F85D000588B06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84932D2F1D3F85D000588B06 /* AppDelegate.swift */; };
+		84932D321D3F85D000588B06 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84932D311D3F85D000588B06 /* MainViewController.swift */; };
+		84932D351D3F85D000588B06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84932D331D3F85D000588B06 /* Main.storyboard */; };
+		84932D371D3F85D000588B06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84932D361D3F85D000588B06 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		846062CA1E4DEB3A0023A091 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		848363851E4B41950055D636 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		848363871E4B46E20055D636 /* r_unsel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = r_unsel.png; path = Images/r_unsel.png; sourceTree = "<group>"; };
+		848363881E4B46E20055D636 /* r_sel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = r_sel.png; path = Images/r_sel.png; sourceTree = "<group>"; };
+		848A01B61E49D67A001B3C3C /* notif_wave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = notif_wave.png; path = Images/notif_wave.png; sourceTree = "<group>"; };
+		848A01B71E49D67A001B3C3C /* notif_radar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = notif_radar.png; path = Images/notif_radar.png; sourceTree = "<group>"; };
+		848A01B81E49D67A001B3C3C /* notif_device.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = notif_device.png; path = Images/notif_device.png; sourceTree = "<group>"; };
+		848A01B91E49D67A001B3C3C /* notification_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = notification_icon.png; path = Images/notification_icon.png; sourceTree = "<group>"; };
+		848A01BA1E49D67A001B3C3C /* proximity_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = proximity_icon.png; path = Images/proximity_icon.png; sourceTree = "<group>"; };
+		848A01BB1E49D67A001B3C3C /* ibks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ibks.png; path = Images/ibks.png; sourceTree = "<group>"; };
+		848A01C31E49DB3C001B3C3C /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Light.ttf"; path = "Fonts/OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		848A01C41E49DB3C001B3C3C /* Khand-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Khand-Bold.ttf"; path = "Fonts/Khand-Bold.ttf"; sourceTree = "<group>"; };
+		848A01C71E49E45C001B3C3C /* ScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
+		848A01CA1E49EA44001B3C3C /* MyCustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomTableViewCell.swift; sourceTree = "<group>"; };
+		848A01CD1E49F450001B3C3C /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		848A01CF1E4A1A21001B3C3C /* NotificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		848A01D11E4A1C3B001B3C3C /* back_icn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back_icn.png; path = Images/back_icn.png; sourceTree = "<group>"; };
+		84932D2C1D3F85CF00588B06 /* iBKSHelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBKSHelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84932D2F1D3F85D000588B06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84932D311D3F85D000588B06 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		84932D341D3F85D000588B06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84932D361D3F85D000588B06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84932D3B1D3F85D000588B06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84932D291D3F85CF00588B06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846062CB1E4DEB3A0023A091 /* libz.tbd in Frameworks */,
+				848A01CE1E49F450001B3C3C /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		848A01B51E49D36E001B3C3C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				848363871E4B46E20055D636 /* r_unsel.png */,
+				848363881E4B46E20055D636 /* r_sel.png */,
+				848A01D11E4A1C3B001B3C3C /* back_icn.png */,
+				848A01B61E49D67A001B3C3C /* notif_wave.png */,
+				848A01B71E49D67A001B3C3C /* notif_radar.png */,
+				848A01B81E49D67A001B3C3C /* notif_device.png */,
+				848A01B91E49D67A001B3C3C /* notification_icon.png */,
+				848A01BA1E49D67A001B3C3C /* proximity_icon.png */,
+				848A01BB1E49D67A001B3C3C /* ibks.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		848A01C21E49D781001B3C3C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				848A01C31E49DB3C001B3C3C /* OpenSans-Light.ttf */,
+				848A01C41E49DB3C001B3C3C /* Khand-Bold.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		848A01C91E49EA1B001B3C3C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				848A01CA1E49EA44001B3C3C /* MyCustomTableViewCell.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		848A01CC1E49F450001B3C3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				846062CA1E4DEB3A0023A091 /* libz.tbd */,
+				848A01CD1E49F450001B3C3C /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84932D231D3F85CF00588B06 = {
+			isa = PBXGroup;
+			children = (
+				84932D2E1D3F85D000588B06 /* iBKSHelloWorld */,
+				84932D2D1D3F85CF00588B06 /* Products */,
+				848A01CC1E49F450001B3C3C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84932D2D1D3F85CF00588B06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84932D2C1D3F85CF00588B06 /* iBKSHelloWorld.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84932D2E1D3F85D000588B06 /* iBKSHelloWorld */ = {
+			isa = PBXGroup;
+			children = (
+				84932D331D3F85D000588B06 /* Main.storyboard */,
+				84932D2F1D3F85D000588B06 /* AppDelegate.swift */,
+				84932D311D3F85D000588B06 /* MainViewController.swift */,
+				848A01C71E49E45C001B3C3C /* ScanViewController.swift */,
+				848A01CF1E4A1A21001B3C3C /* NotificationsViewController.swift */,
+				848363851E4B41950055D636 /* SettingsViewController.swift */,
+				84932D361D3F85D000588B06 /* Assets.xcassets */,
+				84932D3B1D3F85D000588B06 /* Info.plist */,
+				848A01C91E49EA1B001B3C3C /* Utils */,
+				848A01B51E49D36E001B3C3C /* Images */,
+				848A01C21E49D781001B3C3C /* Fonts */,
+			);
+			path = iBKSHelloWorld;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84932D2B1D3F85CF00588B06 /* iBKSHelloWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84932D3E1D3F85D000588B06 /* Build configuration list for PBXNativeTarget "iBKSHelloWorld" */;
+			buildPhases = (
+				84932D281D3F85CF00588B06 /* Sources */,
+				84932D291D3F85CF00588B06 /* Frameworks */,
+				84932D2A1D3F85CF00588B06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iBKSHelloWorld;
+			productName = iBKSHelloWorld;
+			productReference = 84932D2C1D3F85CF00588B06 /* iBKSHelloWorld.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84932D241D3F85CF00588B06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Accent Advanced Systems SLU";
+				TargetAttributes = {
+					84932D2B1D3F85CF00588B06 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = DVDFY252J2;
+						LastSwiftMigration = 0820;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 84932D271D3F85CF00588B06 /* Build configuration list for PBXProject "iBKSHelloWorld" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84932D231D3F85CF00588B06;
+			productRefGroup = 84932D2D1D3F85CF00588B06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84932D2B1D3F85CF00588B06 /* iBKSHelloWorld */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84932D2A1D3F85CF00588B06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848A01D21E4A1C3B001B3C3C /* back_icn.png in Resources */,
+				848A01BE1E49D67A001B3C3C /* notif_device.png in Resources */,
+				848363891E4B46E20055D636 /* r_unsel.png in Resources */,
+				848A01BF1E49D67A001B3C3C /* notification_icon.png in Resources */,
+				848A01C01E49D67A001B3C3C /* proximity_icon.png in Resources */,
+				84932D371D3F85D000588B06 /* Assets.xcassets in Resources */,
+				8483638A1E4B46E20055D636 /* r_sel.png in Resources */,
+				848A01C61E49DB3C001B3C3C /* Khand-Bold.ttf in Resources */,
+				848A01C11E49D67A001B3C3C /* ibks.png in Resources */,
+				84932D351D3F85D000588B06 /* Main.storyboard in Resources */,
+				848A01C51E49DB3C001B3C3C /* OpenSans-Light.ttf in Resources */,
+				848A01BC1E49D67A001B3C3C /* notif_wave.png in Resources */,
+				848A01BD1E49D67A001B3C3C /* notif_radar.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84932D281D3F85CF00588B06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848A01D01E4A1A21001B3C3C /* NotificationsViewController.swift in Sources */,
+				84932D321D3F85D000588B06 /* MainViewController.swift in Sources */,
+				84932D301D3F85D000588B06 /* AppDelegate.swift in Sources */,
+				848A01CB1E49EA44001B3C3C /* MyCustomTableViewCell.swift in Sources */,
+				848A01C81E49E45C001B3C3C /* ScanViewController.swift in Sources */,
+				848363861E4B41950055D636 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84932D331D3F85D000588B06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84932D341D3F85D000588B06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84932D3C1D3F85D000588B06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84932D3D1D3F85D000588B06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84932D3F1D3F85D000588B06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DVDFY252J2;
+				INFOPLIST_FILE = iBKSHelloWorld/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.accent-systems.iBKSHelloWorld";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		84932D401D3F85D000588B06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DVDFY252J2;
+				INFOPLIST_FILE = iBKSHelloWorld/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.accent-systems.iBKSHelloWorld";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84932D271D3F85CF00588B06 /* Build configuration list for PBXProject "iBKSHelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84932D3C1D3F85D000588B06 /* Debug */,
+				84932D3D1D3F85D000588B06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84932D3E1D3F85D000588B06 /* Build configuration list for PBXNativeTarget "iBKSHelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84932D3F1D3F85D000588B06 /* Debug */,
+				84932D401D3F85D000588B06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84932D241D3F85CF00588B06 /* Project object */;
+}
